@@ -5,54 +5,54 @@ const settings = {
   isSplash: true, // Change this to false if you don't want Splash screen.
 };
 
-//Home Page
+//Home Page+
 const greeting = {
-  title: "Miftaul Mannan",
-  logo_name: "Miftaul Mannan",
-  nickname: null,
+  title: "Husni Zayyin Ansori",
+  logo_name: "Husnizayn",
+  nickname: "husnizayn",
   subTitle:
     "An aspiring developer who loves to take on new projects that challenges his analytical and technological capacities.",
   resumeLink:
-    "https://drive.google.com/file/d/1ecfeM8pNH7aLELi5EINHrX8-jY5Uqb0q/view?usp=sharing",
-  portfolio_repository: "https://github.com/Tasin5541",
+    "https://drive.google.com/file/d/1tZL7gBHPgmDshlCheTWMhlhR1Qv4hYMv/view?usp=sharing",
+  portfolio_repository: "https://github.com/husnizayyin",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/Tasin5541",
+    link: "https://github.com/husnizayyin",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/miftaul-mannan-tasin-566543107/",
+    link: "https://www.linkedin.com/in/husnizayyin/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  {
-    name: "YouTube",
-    link:
-      "https://www.youtube.com/channel/UClvrUclYSGX_MZPOF6ySG6A?view_as=subscriber",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
+  // {
+  //   name: "YouTube",
+  //   link:
+  //     "https://www.youtube.com/channel/UClvrUclYSGX_MZPOF6ySG6A?view_as=subscriber",
+  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+  // },
   {
     name: "Gmail",
     link:
-      "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tasinmiftaulmannan@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello",
+      "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=husni.zayyin98@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/tasinmiftaulmannan",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
+  // {
+  //   name: "Facebook",
+  //   link: "https://www.facebook.com/tasinmiftaulmannan",
+  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  // },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/mm_tasin/",
+    link: "https://www.instagram.com/hunsizayn/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -312,22 +312,18 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Ahsanullah University of Science and Technology",
-      subtitle: "B.Sc. in Computer Science and Engineering",
+      title: "University 17 August 1945 Surabaya",
+      subtitle: "Informartics Engineering",
       logo_path: "aust_logo.png",
       alt_name: "IIITDM Kurnool",
-      duration: "March 2016 - January 2021",
-      cgpa: "3.855 / 4.00",
+      duration: "May 2016 - January 2021",
+      cgpa: "3.31 / 4.00",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, OOP, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning and Full Stack Development.",
-        "⚡ Placed 4th in my class.",
-        "⚡ Dean's List.",
-        "⚡ I was selected for ITEE Training Program which comprised of 20 students in the CSE department.",
-        "⚡ Elected as the team leader in all the group projects.",
+        " I have studied basic software engineering subjects like DS, Algorithms, OOP, DBMS, OS, CA, AI etc.",
+        
       ],
-      website_link: "http://aust.edu/",
-    },
+      website_link: "http://untag.ac.id/",
+    }, 
   ],
 };
 

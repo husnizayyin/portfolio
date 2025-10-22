@@ -44,6 +44,16 @@
   text-align: center;
 }
 
+@media (max-width: 1680px) {
+  .heading-text {
+    font-size: 70px;
+    margin-top: 90px;
+  }
+  .heading-sub-text {
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 1380px) {
   .heading-text {
     font-size: 50px;
