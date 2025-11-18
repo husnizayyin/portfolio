@@ -512,11 +512,11 @@ const experience = {
       experiences: [
         {
           title: "Fullstack Developer",
-          company: "CodeExcel inc.",
+          company: "Archangel Digital Studio.",
           company_url: "https://codeexcel.ca/",
           logo_path: "codeexcel.jpg",
-          duration: "January 2021 - PRESENT",
-          location: "Markham, ON, Canada (Remote)",
+          duration: "August 2025 - October 2025",
+          location: "Singapore (Remote)",
           description:
             "Worked with 2 Insurance Bureau of Canada and Pixelmask Inc. as a Contractor via CodeExcel. Engaged in 5 successful projects utilizing stacks such as: React, .Net Core, MS SQL Server, Azure Cloud Services (AD, B2C, Key Vault, Blob Storage, Front Door etc). The projects are mainly focused towards the North American Insurance Industry.",
           features: [
@@ -529,25 +529,67 @@ const experience = {
           ],
           color: "#0879bf",
         },
-      ],
-    },
-    {
-      title: "Volunteerships",
-      experiences: [
         {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "May 2022 - PRESENT",
-          location: "Work from Office or Work From Home",
+          title: "Fullstack Developer",
+          company: "PT. Stars Global Resources Indonesia.",
+          company_url: "https://codeexcel.ca/",
+          logo_path: "codeexcel.jpg",
+          duration: "August 2025 - October 2025",
+          location: "Jakarta, Indonesia (WFO)",
           description:
-            "I am actively contributing to many opensource projects. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          features: [],
-          color: "#181717",
+            "Worked with 2 Insurance Bureau of Canada and Pixelmask Inc. as a Contractor via CodeExcel. Engaged in 5 successful projects utilizing stacks such as: React, .Net Core, MS SQL Server, Azure Cloud Services (AD, B2C, Key Vault, Blob Storage, Front Door etc). The projects are mainly focused towards the North American Insurance Industry.",
+          features: [
+            "- Led the frontend team that resulted in a 25% increase in sprint completion rate.",
+            "- Implemented Single Sign-On (SSO) via Azure B2C across multiple legacy projects, simplifying user experience and reducing account management, resulting in seamless login with company credentials.",
+            "- Uncovered critical project vulnerabilities within 2 days of joining the IBC team, enabling timely remediation and preventing potential losses.",
+            "- Slashed development cost by 13% by suggesting and building a SCIM v2 compliant API for automatic user provisioning between IDP and application instead of using third party solution.",
+            "- Implemented flexible payment gateway module, empowering clients to easily switch gateways, boosting convenience and expanding options.",
+            "- Optimized UI performance by 15% and eliminated code redundancy using React's functional components, custom hooks, and Redux.",
+          ],
+          color: "#0879bf",
         },
+        {
+          title: "Mobile Develeoper",
+          company: "PT. Anyar Retail Indonesia.",
+          company_url: "https://anyargroup.co.id/",
+          logo_path: "codeexcel.jpg",
+          duration: "May 2022 - August 2025",
+          location: "Bandung, Indonesia (Work from Office)",
+          description:
+            "Worked with 2 Insurance Bureau of Canada and Pixelmask Inc. as a Contractor via CodeExcel. Engaged in 5 successful projects utilizing stacks such as: React, .Net Core, MS SQL Server, Azure Cloud Services (AD, B2C, Key Vault, Blob Storage, Front Door etc). The projects are mainly focused towards the North American Insurance Industry.",
+          features: [
+            "- Led the frontend team that resulted in a 25% increase in sprint completion rate.",
+            "- Implemented Single Sign-On (SSO) via Azure B2C across multiple legacy projects, simplifying user experience and reducing account management, resulting in seamless login with company credentials.",
+            "- Uncovered critical project vulnerabilities within 2 days of joining the IBC team, enabling timely remediation and preventing potential losses.",
+            "- Slashed development cost by 13% by suggesting and building a SCIM v2 compliant API for automatic user provisioning between IDP and application instead of using third party solution.",
+            "- Implemented flexible payment gateway module, empowering clients to easily switch gateways, boosting convenience and expanding options.",
+            "- Optimized UI performance by 15% and eliminated code redundancy using React's functional components, custom hooks, and Redux.",
+          ],
+          color: "#0879bf",
+        },{
+          title: "Mobile Developer",
+          company: "PT. Media Digital Baru",
+          company_url: "https://codeexcel.ca/",
+          logo_path: "codeexcel.jpg",
+          duration: "Jully 2019 - Januari 2020",
+          location: "Hybrid, Jakarta (Internship)",
+          description:
+            "Worked with 2 Insurance Bureau of Canada and Pixelmask Inc. as a Contractor via CodeExcel. Engaged in 5 successful projects utilizing stacks such as: React, .Net Core, MS SQL Server, Azure Cloud Services (AD, B2C, Key Vault, Blob Storage, Front Door etc). The projects are mainly focused towards the North American Insurance Industry.",
+          features: [
+            "- Led the frontend team that resulted in a 25% increase in sprint completion rate.",
+            "- Implemented Single Sign-On (SSO) via Azure B2C across multiple legacy projects, simplifying user experience and reducing account management, resulting in seamless login with company credentials.",
+            "- Uncovered critical project vulnerabilities within 2 days of joining the IBC team, enabling timely remediation and preventing potential losses.",
+            "- Slashed development cost by 13% by suggesting and building a SCIM v2 compliant API for automatic user provisioning between IDP and application instead of using third party solution.",
+            "- Implemented flexible payment gateway module, empowering clients to easily switch gateways, boosting convenience and expanding options.",
+            "- Optimized UI performance by 15% and eliminated code redundancy using React's functional components, custom hooks, and Redux.",
+          ],
+          color: "#0879bf",
+        },
+        
+        
       ],
     },
+    
   ],
 };
 
