@@ -1,0 +1,90 @@
+.timeline-wrapper {
+  width: 90%;
+  margin: 40px auto;
+  position: relative;
+  min-height: 300px;          /* BIAR CONTENT TERLIHAT */
+}
+
+.timeline-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.timeline-vertical-line {
+  width: 3px;
+  background: #c4c4c4;
+  height: 100%;
+  position: absolute;
+  left: 20px;
+  top: 0;
+  z-index: 1;
+}
+
+.timeline-items {
+  margin-left: 50px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 50px;
+  z-index: 2;                /* BIAR CARDS DI DEPAN */
+}
+
+.timeline-dot {
+  width: 16px;
+  height: 16px;
+  background: #6c63ff;
+  border-radius: 50%;
+  position: absolute;
+  left: -33px;
+  top: 5px;
+  z-index: 3;
+}
+
+.timeline-card {
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;          /* FIX UTAMA */
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  margin: 20px 0;
+  position: relative;
+  z-index: 2;
+}
+
+/* LOGO */
+.timeline-card-logo img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* HEADER */
+.timeline-card-header h3 {
+  margin: 0;
+}
+
+.timeline-company a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.timeline-date {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.timeline-desc {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.timeline-feature-list {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.timeline-feature-list li {
+  margin-bottom: 5px;
+}
