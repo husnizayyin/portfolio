@@ -7,26 +7,29 @@
   margin-right: 5%;
 }
 
+/* --- HEADER (1 KOLOM FULL) --- */
+
 .experience-heading-div {
   display: flex;
-}
-
-.experience-heading-div > * {
-  flex: 1;
+  flex-direction: column;    /* gambar di atas, teks di bawah */
+  align-items: center;       /* center semua */
+  text-align: center;
 }
 
 .experience-heading-img-div {
+  display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.experience-heading-text-div {
-  text-align: center;
+  margin-bottom: 30px;
 }
 
 .experience-heading-img-div > * {
   max-width: 100%;
   height: auto;
+}
+
+.experience-heading-text-div {
+  text-align: center;
 }
 
 .experience-heading-text {
@@ -35,7 +38,7 @@
   font-family: "Google Sans Medium";
   line-height: 1.1;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 20px; /* dikurangi agar tidak terlalu tinggi */
 }
 
 .experience-heading-sub-text {
@@ -52,12 +55,14 @@
   margin-left: 20px;
   margin-right: 20px;
   font-family: "Google Sans Medium";
+  text-align: center;
 }
+
+/* --- RESPONSIVE --- */
 
 @media (max-width: 1380px) {
   .experience-heading-text {
     font-size: 50px;
-    margin-top: 80px;
   }
   .experience-heading-sub-text {
     font-size: 25px;
@@ -72,10 +77,6 @@
 
   .experience-heading-sub-text {
     font-size: 20px;
-  }
-
-  .experience-heading-div {
-    flex-direction: column;
   }
 
   .experience-header-detail-text {
