@@ -504,7 +504,7 @@ const degrees = {
 const experience = {
   title: "Experience",
   subtitle: "Work",
-  description: "3-year experienced professional Full Stack Developer, specializing in Mobile and Front-End Web Development, with a strong commitment to maximizing application performance and User Experience (UX). I excel at translating complex designs into highly functional and intuitive UI/UX. A proactive and collaborative team member, I leverage my technical mastery to ensure clean code and seamless integration across all product lifecycle stages",
+  description: "Highly accomplished and versatile Full Stack Developer with over 3 years of experience in architecting, developing, and deploying robust, scalable, and secure web applications across diverse industry sectors, including Retail, Mining, and Digital Agencies. Possesses proven expertise in the end-to-end software development lifecycle, leveraging modern tech stacks to deliver high-impact solutions that optimize operations, enhance user experience, and drive significant business value. Highly proficient in cross-functional collaboration, technical leadership, and rapid problem-solving in fast-paced environments.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -513,8 +513,8 @@ const experience = {
         {
           title: "Fullstack Developer",
           company: "Archangel Digital Studio.",
-          company_url: "https://codeexcel.ca/",
-          logo_path: "codeexcel.jpg",
+          company_url: "",
+          logo_path: "ads-icon.jpeg",
           duration: "October 2025 - Present",
           location: "Singapore (Remote)",
           description:
@@ -532,8 +532,8 @@ const experience = {
         {
           title: "Fullstack Developer",
           company: "PT. Stars Global Resources Indonesia.",
-          company_url: "https://codeexcel.ca/",
-          logo_path: "codeexcel.jpg",
+          company_url: "",
+          logo_path: "stgri-icon.jpeg",
           duration: "August 2025 - October 2025",
           location: "Jakarta, Indonesia (WFO)",
           description:
@@ -552,25 +552,27 @@ const experience = {
           title: "Mobile Develeoper",
           company: "PT. Anyar Retail Indonesia.",
           company_url: "https://anyargroup.co.id/",
-          logo_path: "codeexcel.jpg",
+          logo_path: "anyar-icon.png",
           duration: "May 2022 - August 2025",
           location: "Bandung, Indonesia (WFO)",
           description:
             "Worked with 2 Insurance Bureau of Canada and Pixelmask Inc. as a Contractor via CodeExcel. Engaged in 5 successful projects utilizing stacks such as: React, .Net Core, MS SQL Server, Azure Cloud Services (AD, B2C, Key Vault, Blob Storage, Front Door etc). The projects are mainly focused towards the North American Insurance Industry.",
           features: [
-            "- Led the frontend team that resulted in a 25% increase in sprint completion rate.",
-            "- Implemented Single Sign-On (SSO) via Azure B2C across multiple legacy projects, simplifying user experience and reducing account management, resulting in seamless login with company credentials.",
-            "- Uncovered critical project vulnerabilities within 2 days of joining the IBC team, enabling timely remediation and preventing potential losses.",
-            "- Slashed development cost by 13% by suggesting and building a SCIM v2 compliant API for automatic user provisioning between IDP and application instead of using third party solution.",
-            "- Implemented flexible payment gateway module, empowering clients to easily switch gateways, boosting convenience and expanding options.",
-            "- Optimized UI performance by 15% and eliminated code redundancy using React's functional components, custom hooks, and Redux.",
+            "- Designed and developed high-performance mobile applications using Flutter, enhancing user engagement.",
+"- Collaborated with cross-functional teams to define app requirements and ensure seamless API integrations.",
+"- Implemented responsive designs, optimizing user experiences across various devices and screen sizes.",
+"- Stayed updated with mobile development trends, incorporating innovative features to improve app functionality.",
+"- Designed and developed high-performance mobile applications using Flutter, enhancing user engagement.",
+"- Collaborated with cross-functional teams to define app requirements and ensure seamless API integrations.",
+"- Implemented responsive designs, optimizing user experiences across various devices and screen sizes.",
+"- Stayed updated with mobile development trends, incorporating innovative features to improve app functionality."
           ],
           color: "#0879bf",
         },{
           title: "Mobile Developer",
           company: "PT. Media Digital Baru",
-          company_url: "https://codeexcel.ca/",
-          logo_path: "codeexcel.jpg",
+          company_url: "",
+          logo_path: "bosbis-icon.jpeg",
           duration: "Jully 2019 - Januari 2020",
           location: "Jakarta, Indonesia (Internship)",
           description:
