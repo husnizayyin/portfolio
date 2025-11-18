@@ -64,6 +64,7 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
+        "⚡ Building multiplatfrom mobile applications using Flutter",
         "⚡ Building resposive website using NextJs and React",
         "⚡ Implementing secure access to database",
         "⚡ Creating application backend in .Net Core",
@@ -119,13 +120,7 @@ const skills = {
             color: "#3178c6",
           },
         },
-        {
-          skillName: "C#",
-          fontAwesomeClassname: "teenyicons:c-sharp-solid",
-          style: {
-            color: "#953dac",
-          },
-        },
+        
         {
           skillName: "MS SQL Server",
           fontAwesomeClassname: "tabler:sql",
@@ -190,6 +185,10 @@ const skills = {
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
+    {
+      Stack: "Mobile Developer", //Insert stack or technology you have experience in
+      progressPercentage: "98%", //Insert relative proficiency in percentage
+    },
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
       progressPercentage: "90%", //Insert relative proficiency in percentage
@@ -504,9 +503,8 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work and Volunteership",
-  description:
-    "Fullstack Developer with 2+ years of experience working with React, .Net and NodeJs in an agile environment. Experience in leading a 5 member frontend team to achieve concrete goals on a strict deadline in a large scale project consisting over millions of records of drivers all throughout North America.",
+  subtitle: "Work",
+  description: "3-year experienced professional Full Stack Developer, specializing in Mobile and Front-End Web Development, with a strong commitment to maximizing application performance and User Experience (UX). I excel at translating complex designs into highly functional and intuitive UI/UX. A proactive and collaborative team member, I leverage my technical mastery to ensure clean code and seamless integration across all product lifecycle stages",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -541,8 +539,8 @@ const experience = {
           company: "Github",
           company_url: "https://github.com/",
           logo_path: "github_logo.png",
-          duration: "September 2020 - PRESENT",
-          location: "Work From Home",
+          duration: "May 2022 - PRESENT",
+          location: "Work from Office or Work From Home",
           description:
             "I am actively contributing to many opensource projects. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
           features: [],
@@ -573,18 +571,18 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I like to write about the projects I've worked on, my current work and discuss my latest foundings. You are most welcome to input your thoughts on my projects.",
-    link: "https://miftaulmannan.wordpress.com/projects/",
+    link: "",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Banani, Dhaka-1212, Bangladesh",
+    subtitle: "Tasikmalaya, West Java, Indonesian",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/yV1Vkp7L3to9qvKX6",
+    location_map_link: "",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+880 1953699363",
+    subtitle: "+62 85959939270",
   },
 };
 
