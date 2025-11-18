@@ -210,6 +210,17 @@ const sLanguage = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
+      Stack: "Flutter",
+      progressPercentage: "95%",
+    },{
+      Stack: "Bloc",
+      progressPercentage: "90%",
+    },
+    {
+      Stack: "getX",
+      progressPercentage: "90%",
+    },
+    {
       Stack: "React",
       progressPercentage: "90%",
     },
@@ -230,16 +241,20 @@ const sLanguage = {
       progressPercentage: "70%",
     },
     {
-      Stack: ".Net Core",
+      Stack: "Kotlin",
       progressPercentage: "70%",
     },
     {
-      Stack: "C#",
+      Stack: "Java",
       progressPercentage: "80%",
     },
     {
-      Stack: "SQL", //Insert stack or technology you have experience in
+      Stack: "MySQL", //Insert stack or technology you have experience in
       progressPercentage: "80%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "PostgreSQL",
+      progressPercentage: "90%",
     },
     {
       Stack: "CSS/SASS",
@@ -261,7 +276,7 @@ const tools = {
       progressPercentage: "80%",
     },
     {
-      Stack: "Azure Services", //Insert stack or technology you have experience in
+      Stack: "XCode", //Insert stack or technology you have experience in
       progressPercentage: "70%", //Insert relative proficiency in percentage
     },
     {
