@@ -314,7 +314,7 @@ const degrees = {
     {
       title: "University 17 August 1945 Surabaya",
       subtitle: "Informartics Engineering",
-      logo_path: "aust_logo.png",
+      logo_path: "education-logo.png",
       alt_name: "IIITDM Kurnool",
       duration: "May 2016 - January 2021",
       cgpa: "3.31 / 4.00",
