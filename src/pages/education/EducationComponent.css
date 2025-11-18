@@ -7,26 +7,28 @@
   margin-right: 5%;
 }
 
+/* --- HEADER --- */
 .heading-div {
   display: flex;
-}
-
-.heading-div > * {
-  flex: 1;
+  flex-direction: column;    /* ubah dari 2 kolom → 1 kolom */
+  align-items: center;       /* semua center */
+  text-align: center;
 }
 
 .heading-img-div {
+  display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.heading-text-div {
-  text-align: center;
+  margin-bottom: 30px;
 }
 
 .heading-img-div > * {
   max-width: 100%;
   height: auto;
+}
+
+.heading-text-div {
+  text-align: center;
 }
 
 .heading-text {
@@ -35,7 +37,7 @@
   font-family: "Google Sans Medium";
   line-height: 1.1;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 20px;  /* supaya tidak terlalu jauh dari gambar */
 }
 
 .heading-sub-text {
@@ -44,10 +46,12 @@
   text-align: center;
 }
 
+/* --- RESPONSIVE --- */
+
 @media (max-width: 1680px) {
   .heading-text {
     font-size: 70px;
-    margin-top: 90px;
+    margin-top: 20px;
   }
   .heading-sub-text {
     font-size: 30px;
@@ -57,7 +61,7 @@
 @media (max-width: 1380px) {
   .heading-text {
     font-size: 50px;
-    margin-top: 80px;
+    margin-top: 20px;
   }
   .heading-sub-text {
     font-size: 25px;
@@ -75,6 +79,6 @@
   }
 
   .heading-div {
-    flex-direction: column;
+    flex-direction: column;   /* tetap 1 kolom saat mobile */
   }
 }
