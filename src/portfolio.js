@@ -13,7 +13,7 @@ const greeting = {
   subTitle:
     "An aspiring developer who loves to take on new projects that challenges his analytical and technological capacities.",
   resumeLink:
-    "https://drive.google.com/file/d/1tZL7gBHPgmDshlCheTWMhlhR1Qv4hYMv/view?usp=sharing",
+    "",
   portfolio_repository: "https://github.com/husnizayyin",
 };
 
@@ -65,9 +65,9 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Building multiplatfrom mobile applications using Flutter",
-        "⚡ Building resposive website using NextJs and React",
+        "⚡ Building resposive website using React",
         "⚡ Implementing secure access to database",
-        "⚡ Creating application backend in .Net Core",
+        "⚡ Creating application backend in Laravel and NextJs",
         "⚡ Implementing dynamic script execution defined by user",
       ],
       softwareSkills: [
@@ -85,13 +85,7 @@ const skills = {
             color: "#626262",
           },
         },
-        {
-          skillName: ".Net Core",
-          fontAwesomeClassname: "mdi:dot-net",
-          style: {
-            color: "#5C2D91",
-          },
-        },
+
         {
           skillName: "NodeJS",
           fontAwesomeClassname: "simple-icons:node-dot-js",
@@ -120,7 +114,7 @@ const skills = {
             color: "#3178c6",
           },
         },
-        
+
         {
           skillName: "MS SQL Server",
           fontAwesomeClassname: "tabler:sql",
@@ -195,12 +189,13 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "Programming",
       progressPercentage: "80%",
     },
+    {
+      Stack: "UI/UX Design",
+      progressPercentage: "80%",
+    },
+
   ],
 };
 
@@ -211,12 +206,9 @@ const sLanguage = {
     {
       Stack: "Flutter",
       progressPercentage: "95%",
-    },{
-      Stack: "Bloc",
-      progressPercentage: "90%",
     },
     {
-      Stack: "getX",
+      Stack: "Laravel",
       progressPercentage: "90%",
     },
     {
@@ -225,19 +217,7 @@ const sLanguage = {
     },
     {
       Stack: "NextJs",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "JavaScript",
       progressPercentage: "80%",
-    },
-    {
-      Stack: "TypeScript",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "Redux",
-      progressPercentage: "70%",
     },
     {
       Stack: "Kotlin",
@@ -258,10 +238,6 @@ const sLanguage = {
     {
       Stack: "CSS/SASS",
       progressPercentage: "80%",
-    },
-    {
-      Stack: "NodeJs",
-      progressPercentage: "40%",
     },
   ],
 };
@@ -302,10 +278,7 @@ const tools = {
       Stack: "Firebase", //Insert stack or technology you have experience in
       progressPercentage: "60%", //Insert relative proficiency in percentage
     },
-    {
-      Stack: "MongoDB", //Insert stack or technology you have experience in
-      progressPercentage: "60%", //Insert relative proficiency in percentage
-    },
+
   ],
 };
 
@@ -334,10 +307,10 @@ const degrees = {
       cgpa: "3.31 / 4.00",
       descriptions: [
         " I have studied basic software engineering subjects like DS, Algorithms, OOP, DBMS, OS, CA, AI etc.",
-        
+
       ],
       website_link: "http://untag.ac.id/",
-    }, 
+    },
   ],
 };
 
@@ -517,15 +490,14 @@ const experience = {
           logo_path: "ads-icon.jpeg",
           duration: "October 2025 - Present",
           location: "Singapore (Remote)",
-          description:
-            "Worked with 2 Insurance Bureau of Canada and Pixelmask Inc. as a Contractor via CodeExcel. Engaged in 5 successful projects utilizing stacks such as: React, .Net Core, MS SQL Server, Azure Cloud Services (AD, B2C, Key Vault, Blob Storage, Front Door etc). The projects are mainly focused towards the North American Insurance Industry.",
+          description: "",
           features: [
-            "- Led the frontend team that resulted in a 25% increase in sprint completion rate.",
-            "- Implemented Single Sign-On (SSO) via Azure B2C across multiple legacy projects, simplifying user experience and reducing account management, resulting in seamless login with company credentials.",
-            "- Uncovered critical project vulnerabilities within 2 days of joining the IBC team, enabling timely remediation and preventing potential losses.",
-            "- Slashed development cost by 13% by suggesting and building a SCIM v2 compliant API for automatic user provisioning between IDP and application instead of using third party solution.",
-            "- Implemented flexible payment gateway module, empowering clients to easily switch gateways, boosting convenience and expanding options.",
-            "- Optimized UI performance by 15% and eliminated code redundancy using React's functional components, custom hooks, and Redux.",
+            "- Developed and maintained diverse digital solutions, including websites (Wix, WordPress, Laravel) and mobile applications (Flutter), ensuring platform versatility.",
+            "- Guaranteed visual engagement, operational stability, and alignment with client branding and business objectives across all developed websites and applications.",
+            "- Customized themes, managed plugins, and integrated essential third-party applications to meet complex client-specific design and functional requirements.",
+            "- Identified, troubleshooted, and resolved website and application-related issues promptly, minimizing downtime and ensuring service continuity.",
+            "- Offered continuous technical support and guidance for connected applications, integrations, and tools, ensuring optimal client utilization.",
+            ""
           ],
           color: "#0879bf",
         },
@@ -536,15 +508,12 @@ const experience = {
           logo_path: "stgri-icon.jpeg",
           duration: "August 2025 - October 2025",
           location: "Jakarta, Indonesia (WFO)",
-          description:
-            "Worked with 2 Insurance Bureau of Canada and Pixelmask Inc. as a Contractor via CodeExcel. Engaged in 5 successful projects utilizing stacks such as: React, .Net Core, MS SQL Server, Azure Cloud Services (AD, B2C, Key Vault, Blob Storage, Front Door etc). The projects are mainly focused towards the North American Insurance Industry.",
+          description: "",
           features: [
-            "- Led the frontend team that resulted in a 25% increase in sprint completion rate.",
-            "- Implemented Single Sign-On (SSO) via Azure B2C across multiple legacy projects, simplifying user experience and reducing account management, resulting in seamless login with company credentials.",
-            "- Uncovered critical project vulnerabilities within 2 days of joining the IBC team, enabling timely remediation and preventing potential losses.",
-            "- Slashed development cost by 13% by suggesting and building a SCIM v2 compliant API for automatic user provisioning between IDP and application instead of using third party solution.",
-            "- Implemented flexible payment gateway module, empowering clients to easily switch gateways, boosting convenience and expanding options.",
-            "- Optimized UI performance by 15% and eliminated code redundancy using React's functional components, custom hooks, and Redux.",
+            "- Developed an automated payroll system specifically tailored for the mining industry, significantly enhancing operational efficiency.",
+            "- Integrated facial recognition attendance tracking into management systems to streamline employee check-in/out processes and ensure accurate record-keeping.",
+            "- Created robust RESTful APIs to facilitate comprehensive reporting, drastically improving data accessibility and speeding up informed decision-making.",
+            "- Contributed to innovative solution development at PT Stars Global Resources Indonesia, a dynamic Jakarta-based technology company."
           ],
           color: "#0879bf",
         },
@@ -555,43 +524,39 @@ const experience = {
           logo_path: "anyar-icon.png",
           duration: "May 2022 - August 2025",
           location: "Bandung, Indonesia (WFO)",
-          description:
-            "Worked with 2 Insurance Bureau of Canada and Pixelmask Inc. as a Contractor via CodeExcel. Engaged in 5 successful projects utilizing stacks such as: React, .Net Core, MS SQL Server, Azure Cloud Services (AD, B2C, Key Vault, Blob Storage, Front Door etc). The projects are mainly focused towards the North American Insurance Industry.",
+          description: "",
           features: [
             "- Designed and developed high-performance mobile applications using Flutter, enhancing user engagement.",
-"- Collaborated with cross-functional teams to define app requirements and ensure seamless API integrations.",
-"- Implemented responsive designs, optimizing user experiences across various devices and screen sizes.",
-"- Stayed updated with mobile development trends, incorporating innovative features to improve app functionality.",
-"- Designed and developed high-performance mobile applications using Flutter, enhancing user engagement.",
-"- Collaborated with cross-functional teams to define app requirements and ensure seamless API integrations.",
-"- Implemented responsive designs, optimizing user experiences across various devices and screen sizes.",
-"- Stayed updated with mobile development trends, incorporating innovative features to improve app functionality."
+            "- Collaborated with cross-functional teams to define app requirements and ensure seamless API integrations.",
+            "- Implemented responsive designs, optimizing user experiences across various devices and screen sizes.",
+            "- Stayed updated with mobile development trends, incorporating innovative features to improve app functionality.",
+            "- Designed and developed high-performance mobile applications using Flutter, enhancing user engagement.",
+            "- Collaborated with cross-functional teams to define app requirements and ensure seamless API integrations.",
+            "- Implemented responsive designs, optimizing user experiences across various devices and screen sizes.",
+            "- Stayed updated with mobile development trends, incorporating innovative features to improve app functionality."
           ],
           color: "#0879bf",
-        },{
+        }, {
           title: "Mobile Developer",
           company: "PT. Media Digital Baru",
           company_url: "",
           logo_path: "bosbis-icon.jpeg",
           duration: "Jully 2019 - Januari 2020",
           location: "Jakarta, Indonesia (Internship)",
-          description:
-            "Worked with 2 Insurance Bureau of Canada and Pixelmask Inc. as a Contractor via CodeExcel. Engaged in 5 successful projects utilizing stacks such as: React, .Net Core, MS SQL Server, Azure Cloud Services (AD, B2C, Key Vault, Blob Storage, Front Door etc). The projects are mainly focused towards the North American Insurance Industry.",
+          description: "",
           features: [
-            "- Led the frontend team that resulted in a 25% increase in sprint completion rate.",
-            "- Implemented Single Sign-On (SSO) via Azure B2C across multiple legacy projects, simplifying user experience and reducing account management, resulting in seamless login with company credentials.",
-            "- Uncovered critical project vulnerabilities within 2 days of joining the IBC team, enabling timely remediation and preventing potential losses.",
-            "- Slashed development cost by 13% by suggesting and building a SCIM v2 compliant API for automatic user provisioning between IDP and application instead of using third party solution.",
-            "- Implemented flexible payment gateway module, empowering clients to easily switch gateways, boosting convenience and expanding options.",
-            "- Optimized UI performance by 15% and eliminated code redundancy using React's functional components, custom hooks, and Redux.",
+            "- Designed and developed high-performance mobile applications using Flutter, enhancing user engagement.",
+            "- Collaborated with cross-functional teams to define app requirements and ensure seamless API integrations.",
+            "- Implemented responsive designs, optimizing user experiences across various devices and screen sizes.",
+
           ],
           color: "#0879bf",
         },
-        
-        
+
+
       ],
     },
-    
+
   ],
 };
 
@@ -607,7 +572,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "tasin.png",
+    profile_image_path: "logo512.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Basic Programming, ML, AI, Android, Cloud and Opensource Development.",
   },
